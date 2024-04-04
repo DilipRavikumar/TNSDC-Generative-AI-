@@ -1,0 +1,130 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["Hi there", "How are you", "Is anyone there?","Hey", "Hola", "Hello", "Good day"],
+            "responses": ["Hello", "Good to see you again","fine", "Hi there, how can I help?"],
+            "context": [""]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+            "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+            "context": [""]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+            "responses": ["My pleasure", "You're Welcome"],
+            "context": [""]
+        },
+        {
+            "tag": "query",
+            "patterns": ["What is Simplilearn?"],
+            "responses": ["Simplilearn is the popular online Bootcamp & online courses learning platform."],
+            "context": [""]
+        },
+        {
+            "tag": "about_simplilearn",
+            "patterns": ["Tell me about Simplilearn", "What does Simplilearn offer?", "Who owns Simplilearn?"],
+            "responses": ["Simplilearn is one of the world's leading certification training providers, offering courses in various domains including IT, software development, project management, and digital marketing. Simplilearn offers both self-paced and instructor-led training, with flexible learning options to suit individual needs. Simplilearn was founded by Krishna Kumar and has since grown into a global organization with a presence in over 150 countries."],
+            "context": [""]
+        },
+        {
+            "tag": "course_recommendation",
+            "patterns": ["Can you recommend a course for me?", "I'm interested in learning something new", "What course should I take?"],
+            "responses": ["Sure! Based on your interests, I recommend checking out our Data Science or Python programming courses. Both are popular choices and offer valuable skills for today's job market."],
+            "context": [""]
+        },
+        {
+            "tag": "pricing",
+            "patterns": ["How much does Simplilearn's courses cost?", "What is the pricing for your courses?", "Do you offer any discounts or promotions?"],
+            "responses": ["The pricing for Simplilearn's courses varies depending on the course and learning format. We offer both self-paced and instructor-led training options, with different pricing structures. You can find detailed pricing information on our website, and we also regularly offer discounts and promotions, so be sure to check for any ongoing deals."],
+            "context": [""]
+        },
+        {
+            "tag": "technical_support",
+            "patterns": ["I'm having trouble accessing my course materials", "Who do I contact for technical support?", "My account is having issues"],
+            "responses": ["I'm sorry to hear that you're experiencing difficulties. For technical support or assistance with your account, please reach out to our customer support team at support@simplilearn.com. They will be able to help you resolve any issues you're encountering."],
+            "context": [""]
+        },
+        {
+            "tag": "career_advice",
+            "patterns": ["Can you provide career advice?", "I'm not sure which career path to choose", "How can I advance my career?"],
+            "responses": ["Certainly! Career advancement often depends on your interests, skills, and goals. I recommend exploring our Career Resource Center, where you'll find articles, webinars, and guides to help you navigate your career path. Additionally, consider taking courses or certifications that align with your career aspirations, and networking with professionals in your industry to gain insights and opportunities."],
+            "context": [""]
+        },
+        {
+            "tag": "feedback",
+            "patterns": ["I have feedback for Simplilearn", "How can I provide feedback?", "Can I leave a review?"],
+            "responses": ["We value your feedback and appreciate your input! You can provide feedback or leave a review by visiting our website and filling out the feedback form. Alternatively, you can email us at feedback@simplilearn.com. Your feedback helps us improve our services and better serve our learners."],
+            "context": [""]
+        },
+        {
+            "tag": "cancel_subscription",
+            "patterns": ["How do I cancel my subscription?", "I want to unsubscribe from Simplilearn", "Cancel my membership"],
+            "responses": ["To cancel your subscription or membership, please log in to your Simplilearn account and navigate to the subscription settings. From there, you'll find options to manage or cancel your subscription. If you need further assistance, feel free to reach out to our customer support team for help."],
+            "context": [""]
+        },
+        {
+            "tag": "refund_policy",
+            "patterns": ["What is Simplilearn's refund policy?", "Can I get a refund for my course?", "Refund process"],
+            "responses": ["Simplilearn offers a flexible refund policy for most courses. If you're not satisfied with your course or need to cancel your enrollment, you may be eligible for a refund within a certain timeframe. Please refer to our refund policy on our website for specific details and instructions on how to request a refund. Our customer support team is also available to assist you with any questions or concerns regarding refunds."],
+            "context": [""]
+        },
+        {
+            "tag": "company_location",
+            "patterns": ["Where is Simplilearn located?", "What are Simplilearn's office locations?", "Headquarters address"],
+            "responses": ["Simplilearn's headquarters is located in Bangalore, India. Additionally, we have offices and training centers in various cities around the world, including San Francisco, New York, London, Sydney, and Singapore. You can find more information about our office locations on our website."],
+            "context": [""]
+        },
+        {
+            "tag": "job_opportunities",
+            "patterns": ["Does Simplilearn have job opportunities?", "Are you hiring?", "Job openings"],
+            "responses": ["Yes, Simplilearn regularly hires talented individuals to join our team and contribute to our mission of empowering professionals worldwide through education. You can check our Careers page on our website for current job openings and career opportunities. We offer a dynamic and supportive work environment, competitive compensation, and opportunities for growth and development."],
+            "context": [""]
+        },
+        {
+            "tag": "medical_advice",
+            "patterns": ["I'm feeling unwell", "Can you provide medical advice?", "What should I do if I have a fever?"],
+            "responses": ["I'm sorry, but I'm not qualified to provide medical advice. It's important to consult with a healthcare professional for any health-related concerns. If you're feeling unwell or have symptoms such as fever, it's best to seek medical attention and follow the guidance of a doctor or healthcare provider."],
+            "context": [""]
+        },
+        {
+            "tag": "educational_resources",
+            "patterns": ["Where can I find educational resources?", "Do you have study materials?", "I need help with my homework"],
+            "responses": ["There are many educational resources available online to help you with your studies. You can check out websites like Khan Academy, Coursera, and edX for free courses and tutorials. Additionally, libraries and educational institutions often offer access to textbooks, academic journals, and other study materials. If you need specific help with your homework, consider reaching out to your teachers or classmates for assistance."],
+            "context": [""]
+        },
+        {
+            "tag": "sports_news",
+            "patterns": ["What's the latest sports news?", "Can you update me on sports events?", "Tell me about the recent game results"],
+            "responses": ["Sure! Here are some recent sports headlines: [Insert recent sports news and updates here]. You can also stay updated on sports events by following sports news websites, ESPN, or sports channels on television."],
+            "context": [""]
+        },
+        {
+            "tag": "mental_health",
+            "patterns": ["I'm feeling stressed", "How can I improve my mental health?", "Do you have tips for managing anxiety?"],
+            "responses": ["Taking care of your mental health is important. Some tips for managing stress and anxiety include practicing relaxation techniques such as deep breathing or meditation, getting regular exercise, maintaining a healthy diet, getting enough sleep, and seeking support from friends, family, or a mental health professional if needed. Remember to prioritize self-care and take breaks when you need them."],
+            "context": [""]
+        },
+        {
+            "tag": "personal_finance",
+            "patterns": ["How can I manage my finances better?", "Do you have tips for saving money?", "What's the best way to invest my money?"],
+            "responses": ["Managing your finances effectively is important for your financial well-being. Some tips for saving money include creating a budget, tracking your expenses, avoiding unnecessary purchases, and setting financial goals. When it comes to investing, consider diversifying your investments, staying informed about market trends, and seeking advice from a financial advisor or investment professional."],
+            "context": [""]
+        },
+        {
+            "tag": "technology_trends",
+            "patterns": ["What are the latest technology trends?", "Can you tell me about emerging technologies?", "I'm interested in learning about new tech"],
+            "responses": ["Technology is constantly evolving, and there are many exciting trends to explore. Some current technology trends include artificial intelligence, machine learning, blockchain, cloud computing, cybersecurity, and the Internet of Things (IoT). These technologies have the potential to transform industries and improve our daily lives. Stay updated on technology news and developments by following tech blogs, attending conferences, and exploring online resources."],
+            "context": [""]
+        },
+        {
+            "tag": "fallback",
+            "patterns": [],
+            "responses": ["I'm sorry, I didn't understand that. Could you please rephrase or provide more context?"],
+            "context": [""]
+        }
+    ]
+}
